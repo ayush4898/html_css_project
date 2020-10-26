@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+#back-pic {
+  text-align: center;
+  overflow: hidden;
+  background: url("./office2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+.topnav {
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 10%;
+}
+
+.topnav a {
+  margin-left: 1%;
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+  transition: all 0.1s;
+}
+
+.topnav select {
+  margin-left: 1%;
+  float: left;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.topnav a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.topnav a.active {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.topnav input[type=text] {
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.topnav img {
+  padding-top: 5px;
+  width:auto;
+  height:35px;
+}
+
+.topnav table {
+  float: right;
+  margin-right: 20%;
+  padding-top: 3px;
+}
+
+#heading {
+  color: #ffffff;
+  text-align: center;
+  background-attachment: fixed;
+  padding: 250px;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+#heading h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 90px;
+  padding-top: 20px;
+}
+
+#heading p {
+  font-family: 'Merriweather', serif;
+}
+
+#about{
+  text-align: center;
+  background: #B4AB81;
+  padding-top: 10%;
+  /*background: url("./pic.jpg");
+  height: 800px;
+  background-size: cover;*/
+}
+
+#mainpic {
+  margin-right: 10%;
+  margin-left: 10%;
+  background: url("./profilepic.jpg");
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+  vertical-align: center;
+  line-height: 600px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px 10px black;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 25px;
+
+}
+
+
+#aboutme {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  padding-top: 5%;
+}
+
+.descp {
+  color: black;
+  /*margin-left: 40%;
+  padding-top: 20%;*/
+  font-family: 'Mali', cursive;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.1s;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  text-shadow: 2px 2px 10px white;
+}
+
+.flex-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.element {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  border: 1px solid black;
+  border-radius: 25px;
+  transition: all 0.1s;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  background-size: cover;
+  color: #FFFBE6;
+  line-height: 450px;
+}
+
+.element h1 {
+   width: 100%;
+}
+
+.flex-container div:hover {
+  transform: scale(1.1);
+  box-shadow: 15px 15px 30px white;
+}
+
+.bottom-bar {
+  text-shadow: 2px 2px 10px white;
+  height: 400px;
+  text-align: center;
+  background: #B4AB81;
+  
+}
+
+.bottom-bar h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.bottom-bar p{
+  font-family: 'Mali', cursive;
+  padding-top: 20px;
+}
+
+.bottom-bar table{
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px;
+}
+
+.bottom-bar td{
+  padding: 20px;
+}
+
+.bottom-bar h3{
+  bottom: 0;
+  margin-top: 30px;
+}
